@@ -1,4 +1,4 @@
-const z = require("zod");
+import z from 'zod'
 
 const songSchema = z.object({
   title: z.string({
@@ -16,15 +16,10 @@ const songSchema = z.object({
   }),
 });
 
-function validateSong(object) {
+export function validateSong(object) {
   return songSchema.safeParse(object);
 }
 
-function validatePartialSong(object) {
+export function validatePartialSong(object) {
   return songSchema.partial().safeParse(object);
 }
-
-module.exports = {
-  validateSong,
-  validatePartialSong,
-};
