@@ -1,0 +1,32 @@
+GET http://localhost:1234/songs
+
+###
+GET http://localhost:1234/songs/3
+
+###
+GET http://localhost:1234/songs/?genre=Pop   
+
+###Crear cancion
+POST http://localhost:1234/songs
+Content-Type: application/json
+
+    {
+      "title": "Bad Liar",
+      "artist": "Imagine Dragons",
+      "album": "Divide",
+      "release_year": 2017,
+      "genre": "Pop",
+      "duration": "3:53",
+      "track_number": 4,
+      "url": "https://example.com/shape-of-you"
+    }
+
+
+###
+PATCH http://localhost:1234/songs/1
+Content-Type: application/json
+
+{
+  "title": "hello",
+  "release_year": 2022
+}

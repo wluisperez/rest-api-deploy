@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Probar API Rest</title>
+    <script type="module">
+      fetch("http://localhost:1234/songs")
+        .then((res) => res.json())
+        .then((songs) => {
+          const html = songs
+            .map((song) => {
+              return `<article>
+                <h2>${s.title}</h2>
+                <p>${s.release_year}</h2>
+            </article>
+            <button type="button">Eliminar</button>
+            `;
+            })
+            .join("");
+          document.querySelector("main").innerHTML = html;
+        });
+    </script>
+  </head>
+  <body>
+    <main></main>
+  </body>
+</html>
