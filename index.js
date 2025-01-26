@@ -1,6 +1,4 @@
-import express, {
-  json
-} from "express";
+import express, { json } from "express";
 import { songsRouter } from "./routes/songs.js";
 import { corsMiddleware } from "./middlewares/cors.js";
 const app = express();
