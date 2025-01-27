@@ -1,4 +1,4 @@
-GET http://localhost:1234/songs
+GET http://localhost:1234/
 
 ###
 GET http://localhost:1234/songs/3
@@ -30,3 +30,6 @@ Content-Type: application/json
   "title": "hello",
   "release_year": 2022
 }
+
+###
+DELETE  http://localhost:1234/98ca058b-3e27-4995-a283-a87f3b1df1b3

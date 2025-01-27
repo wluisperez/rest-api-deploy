@@ -4,6 +4,7 @@ import { corsMiddleware } from "./middlewares/cors.js";
 const app = express();
 
 app.use(json());
+app.disable("x-powered-by");
 app.use("/", songsRouter);
 app.use(corsMiddleware());
 

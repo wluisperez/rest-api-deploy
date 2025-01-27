@@ -1,58 +1,57 @@
 [
-    {
-      "id": 1,
-      "title": "Shape of You",
-      "artist": "Ed Sheeran",
-      "album": "Divide",
-      "release_year": 2017,
-      "genre": "Pop",
-      "duration": "3:53",
-      "track_number": 4,
-      "url": "https://example.com/shape-of-you"
-    },
-    {
-      "id": 2,
-      "title": "Bohemian Rhapsody",
-      "artist": "Queen",
-      "album": "A Night at the Opera",
-      "release_year": 1975,
-      "genre": "Rock",
-      "duration": "5:55",
-      "track_number": 11,
-      "url": "https://example.com/bohemian-rhapsody"
-    },
-    {
-      "id": 3,
-      "title": "Blinding Lights",
-      "artist": "The Weeknd",
-      "album": "After Hours",
-      "release_year": 2020,
-      "genre": "Synthwave",
-      "duration": "3:20",
-      "track_number": 9,
-      "url": "https://example.com/blinding-lights"
-    },
-    {
-      "id": 4,
-      "title": "Imagine",
-      "artist": "John Lennon",
-      "album": "Imagine",
-      "release_year": 1971,
-      "genre": "Soft Rock",
-      "duration": "3:04",
-      "track_number": 1,
-      "url": "https://example.com/imagine"
-    },
-    {
-      "id": 5,
-      "title": "Smells Like Teen Spirit",
-      "artist": "Nirvana",
-      "album": "Nevermind",
-      "release_year": 1991,
-      "genre": "Grunge",
-      "duration": "5:01",
-      "track_number": 1,
-      "url": "https://example.com/smells-like-teen-spirit"
-    }
-  ]
-  
+  {
+    "id": "e9cc3a6c-9427-45d7-ace0-608d6ec50306",
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "album": "Divide",
+    "release_year": 2017,
+    "genre": "Pop",
+    "duration": "3:53",
+    "track_number": 4,
+    "url": "https://example.com/shape-of-you"
+  },
+  {
+    "id": "98ca058b-3e27-4995-a283-a87f3b1df1b3",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "A Night at the Opera",
+    "release_year": 1975,
+    "genre": "Rock",
+    "duration": "5:55",
+    "track_number": 11,
+    "url": "https://example.com/bohemian-rhapsody"
+  },
+  {
+    "id": "4e4919c2-2b72-4791-8cd9-0f89cc6f4b0f",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "album": "After Hours",
+    "release_year": 2020,
+    "genre": "Synthwave",
+    "duration": "3:20",
+    "track_number": 9,
+    "url": "https://example.com/blinding-lights"
+  },
+  {
+    "id": "1abf069c-bf8d-4272-99e0-447eb01683e3",
+    "title": "Imagine",
+    "artist": "John Lennon",
+    "album": "Imagine",
+    "release_year": 1971,
+    "genre": "Soft Rock",
+    "duration": "3:04",
+    "track_number": 1,
+    "url": "https://example.com/imagine"
+  },
+  {
+    "id": "35b55f31-5498-4c72-afb6-61dc64f019a3",
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "release_year": 1991,
+    "genre": "Grunge",
+    "duration": "5:01",
+    "track_number": 1,
+    "url": "https://example.com/smells-like-teen-spirit"
+  }
+]
